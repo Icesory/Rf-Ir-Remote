@@ -1,0 +1,28 @@
+#######################################
+# Syntax Coloring Map For RFControl
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+RFControl	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+
+startReceiving		KEYWORD2
+stopReceiving		KEYWORD2
+hasData  		KEYWORD2	
+getRaw  		KEYWORD2
+continueReceiving	KEYWORD2
+compressTimings 	KEYWORD2
+compressTimingsAndSortBuckets 	KEYWORD2
+sendByTimings   	KEYWORD2
+
+
+#######################################
+# Constants (LITERAL1)
+#######################################
