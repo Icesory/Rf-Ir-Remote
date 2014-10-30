@@ -3,6 +3,8 @@ Rf-Ir-Remote
 
 A Arduino based RF to IR Remote
 
+![Overview](picture1.jpg)
+
 Im zuge meiner Hausautomatisierung überkam mich der Wunsch auch meinen Fernseher, ja eigentlich 
 alle meine Heimkino Geräte über mein Handy steuern zukönnen.
 
@@ -19,5 +21,5 @@ Im folgenden ist der Schaltplan dargestellt.
 BILD
 
 Die Software habe ich mir größten Teils zusammen gehamstert.
-Als erstes benötigt ihr die RFControl library von Oliver Schneider. https://github.com/pimatic/RFControl
-Als zweites wird die IR library von Ken Shirriff benötigt. https://github.com/shirriff/Arduino-IRremote
+[Als erstes benötigt ihr die RFControl library von Oliver Schneider.](https://github.com/pimatic/RFControl)
+[Als zweites wird die IR library von Ken Shirriff benötigt.](https://github.com/shirriff/Arduino-IRremote)
