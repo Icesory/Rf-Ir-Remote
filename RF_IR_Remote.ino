@@ -36,6 +36,7 @@ PROTOCOL: SAMSUNG
 #define SAMSUNG_ZERO        0xE0E08877
 const unsigned long samsung_commands[] = {SAMSUNG_POWER, SAMSUNG_POWER, SAMSUNG_volume_DOWN, SAMSUNG_volume_UP};
 const int samsung_commands_lenght = 4;
+const unsigned long SAMSUNG_REMOTE_ID = 1234567;
 /*
 PIONEER IR Remote
 REMOTE: AXD7596
@@ -76,14 +77,13 @@ PROTOCOL: NEC
 #define PIONEER_RETURN      0xA55ABA45
 const unsigned long pioneer_commands[] = {PIONEER_POWER, PIONEER_POWER, PIONEER_volume_DOWN, PIONEER_volume_UP};
 const int pioneer_commands_lenght = 4;
+const unsigned long PIONEER_REMOTE_ID = 1231238;
 
 IRsend irsend;
 
 decode_results results;
 const unsigned int buckets_ref[] = {320, 1550, 2750, 10350, 0, 0, 0, 0};
 const unsigned int pulse_count = 132;
-const unsigned long SAMSUNG_REMOTE_ID = 1234567;
-const unsigned long PIONEER_REMOTE_ID = 1231238;
 const unsigned long intervall = 30000;
 unsigned long time_old = 0;
 unsigned long time_old_led = 0;
