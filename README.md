@@ -20,7 +20,6 @@ Für den Empfang benötigt man einen 433MHz Empfänger. Diese bekommt man recht 
 Zum Senden braucht man Infrarot LEDs. Im Moment verwende ich zwei aus einer alten Fernbedienung. Damit der Arduino da nicht überlastet wird sollte ein Transistor verwendet werden.
 
 Im folgenden ist der Schaltplan dargestellt.
-BILD
 
 Die Software habe ich mir größten Teils zusammen gehamstert.
 
